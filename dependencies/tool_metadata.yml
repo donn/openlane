@@ -30,7 +30,7 @@
     cp ispd19dr $PREFIX/bin/drcu
 - name: magic
   repo: https://github.com/rtimothyedwards/magic
-  commit: 958d6f16701c1ee25e27440381b5c2c37b5fee7c
+  commit: c776c824458c06aaf7cabfce1cfecb083357246a
   build: |
     ./configure --prefix=$PREFIX
     make -j$(nproc)
