@@ -37,7 +37,7 @@
     make install
 - name: netgen
   repo: https://github.com/rtimothyedwards/netgen
-  commit: 738c1f7b3705bca2f1cc66fbc1cfb20f12d49a06
+  commit: a332c235248e8d7125d50ef82d1bb8a8fe6aad44
   build: |
     ./configure --prefix=$PREFIX
     make -j$(nproc)
